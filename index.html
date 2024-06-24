@@ -11,153 +11,171 @@
 <body>
 <header class="container-header">
     <div class="nav-principal menu">
-        <div id="hamburguer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 12H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M3 6H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M3 18H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            </div>
+        <div id="hamburguer"><img src="assets/icons/menu.svg" alt="icone menu"></div>
         <div id="logo"><img src="assets/images/youtube.png" alt="logo do site"></div>
     </div>
-    <div class="container-search">
+    <div class="nav-principal search">
+        <label class="container-search">
             <input type="search" name="pesquisa" placeholder="Pesquisar">
-            <button type="submit" name="enviar"><img src="assets/icons/search.svg" alt="Descrição do SVG"></button>
+            <button type="submit" name="enviar"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </label>
     </div>
-    <div class=" avatar">
-        <img class="avatar-item" src="assets/icons/video.svg" alt="Descrição do SVG">
-        <img class="avatar-item" src="assets/icons/bell.svg" alt="Descrição do SVG">  
-        <img class="avatar-item" src="assets/images/avatar.png" alt="perfil">
-    </div>
+    <div class="nav-principal avatar">
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-regular fa-bell"></i>
+        <div><img src="assets/images/avatar.png" alt="perfil"></div>
+    </di>
 </header>
-
-<aside class="sidebar">
-    <div class="list-item"><img src="assets/icons/home.svg" alt="Descrição do SVG">Ínicio</div>
-    <div class="list-item"><img src="assets/icons/compass.svg" alt="Descrição do SVG">Explorar</div>
-    <div class="list-item"><img src="assets/icons/youtube.svg" alt="Descrição do SVG">Inscrições</div>
-    <div class="list-item"><img src="assets/icons/disc.svg" alt="Descrição do SVG">YouTube Music</div>
-    <div class="list-item"><img src="assets/icons/thumbs-up.svg" alt="Descrição do SVG">Vídeos que gostei</div>
-    <div class="list-item"><img src="assets/icons/clock.svg" alt="Descrição do SVG">Assistir mais tarde</div>
-    <div class="list-item"><img src="assets/icons/download.svg" alt="Descrição do SVG">Downloads</div>
-    <div class="list-item"><img src="assets/icons/film.svg" alt="Descrição do SVG">Filmes</div>
-    <div class="list-item"><img src="assets/icons/book.svg" alt="Descrição do SVG">Aprender</div>
-    <div class="list-item"><img src="assets/icons/award.svg" alt="Descrição do SVG">Esportes</div>
-</aside>
 <main>
-    <section class="container-lista">
-        <div class="lista-item video1">
-            <img src="assets/images/THUMB.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Geração Tech Unimed - BH - Ciência de Dados</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
+    <section class="principal-container">
+        <div>
+            <img class="video-principal" src="assets/images/image 2.png" alt="Video principal">
         </div>
-        <div class="lista-item video2">
-            <img src="assets/images/image 12.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Scrum Talks</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
+        <h1>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h1>
+        
+        <section class="container-avaliacao">
+            <div class="avaliacao canal">
+                <div><img src="assets/images/logo-dio.png" alt="imagem do canal"></div>
+                <div class="texto-canal">
+                <h2>DIO</h2>
+                <p>83,3 mil inscritos</p>
+                </div>
             </div>
-        </div>
-        <div class="lista-item video3">
-            <img src="assets/images/image 13.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Machine Learning Avançado - Fast Track</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
-        </div>
-
-        <div class="lista-item video4">
-            <img src="assets/images/image 14.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Global Skills #2 - Project Planning</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
-        </div>
-        <div class="lista-item video5">
-            <img src="assets/images/image 18.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Como aprender a programar Python do ZERO</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
-        </div>
-
-        <div class="lista-item video6">
-            <img src="assets/images/image 15.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Geração Tech Unimed - BH - Ciência de Dados</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
-        </div>
-
-        <div class="lista-item video7">
-            <img src="assets/images/image 12.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Machine Learning Avançado - Fast Track</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
-        </div>
-        <div class="lista-item video8">
-            <img src="assets/images/image 18.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Global Skills #2 - Project Planning</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
-        </div>
-        <div class="lista-item video9">
-            <img src="assets/images/image 16.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Geração Tech Unimed - BH - Ciência de Dados</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
-        </div>
-        <div class="lista-item video10">
-            <img src="assets/images/image 14.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Scrum Talks</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
-        </div>
-        <div class="lista-item video11">
-            <img src="assets/images/image 12.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Global Skills #2 - Project Planning</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
-        </div>
-        <div class="lista-item video12">
-            <img src="assets/images/image 14.png" alt="Segundo video">
-            <div class="texto-item">
-                <div class="titulo-item"><img src="assets/images/logo-dio.png" alt="imagem do canal">
-                <h3>Como aprender a programar Python do ZERO</h3></div>
-                <p>1,6 mil visualizações<br>
-                 Transmitido há 3 dias</p>
-            </div>
-        </div>
+            <button class="avaliacao button-inscrever" type="submit">INSCREVA-SE</button>
+            <div class="avaliacao icons"><i class="fa-solid fa-thumbs-up"></i>Gostei</div>
+            <div class="avaliacao icons"><i class="fa-solid fa-thumbs-down"></i>Não gostei</div>
+            <div class="avaliacao icons"><i class="fa-solid fa-share-nodes"></i>Compartilhar</div>
+            <div class="avaliacao icons"><i class="fa-solid fa-download"></i>Donwload</div>
+        </section>
+        <h3>28.418 visualizações  Transmitido ao vivo em 23 ago. de 2022</h3>
+        <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
     </section>
-    
- </main>
+
+    <section class="container-lista">
+                <div class="lista-item">
+                    <div><img src="assets/images/Thumb.png" alt="Primeiro video"></div>
+                    <div class="texto-item">
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações<br>
+                         Transmitido há 2 dias</p>
+                    </div>
+                </div>
+                <div class="lista-item">
+                    <div><img src="assets/images/image 12.png" alt="Segundo video"></div>
+                    <div class="texto-item">
+                        <h3>Scrum Talks</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,6 mil visualizações<br>
+                         Transmitido há 3 dias</p>
+                    </div>
+                </div>
+                <div class="lista-item">
+                    <div><img src="assets/images/image 13.png" alt="Terceiro video"></div>
+                    <div class="texto-item">
+                        <h3>Machine Learning Avançado - Fast Track</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,7 mil visualizações<br>
+                         Transmitido há 4 dias</p>
+                    </div>
+                </div>
+                <div class="lista-item">
+                    <div><img src="assets/images/image 14.png" alt="Quarto video"></div>
+                    <div class="texto-item">
+                        <h3>Global Skills #2 - Project Planning</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>975 visualizações<br>
+                         Transmitido há 6 dias</p>
+                    </div>
+                </div>
+                <div class="lista-item">
+                    <div><img src="assets/images/Thumb.png" alt="Quinto video"></div>
+                    <div class="texto-item">
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações<br>
+                         Transmitido há 8 dias</p>
+                    </div>
+                </div>
+                <div class="lista-item">
+                    <div><img src="assets/images/image 12.png" alt="Sexto video"></div>
+                    <div class="texto-item">
+                        <h3>Scrum Talks</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,6 mil visualizações<br>
+                         Transmitido há 3 dias</p>
+                    </div>
+                </div>
+                <div class="lista-item">
+                    <div><img src="assets/images/image 18.png" alt="Sétimo video"></div>
+                    <div class="texto-item">
+                        <h3>Machine Learning Avançado - Fast Track</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,7 mil visualizações<br>
+                         Transmitido há 4 dias</p>
+                    </div>
+                </div>
+                <div class="lista-item">
+                    <div><img src="assets/images/image 15.png" alt="Oitavo video"></div>
+                    <div class="texto-item">
+                        <h3>Como aprender Python do zero</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,9 mil visualizações<br>
+                         Transmitido há 10 dias</p>
+                    </div>
+                </div>
+
+                <div class="lista-item">
+                    <div><img src="assets/images/Thumb.png" alt="Primeiro video"></div>
+                    <div class="texto-item">
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações<br>
+                         Transmitido há 2 dias</p>
+                    </div>
+                </div>
+
+                <div class="lista-item">
+                    <div><img src="assets/images/image 12.png" alt="Segundo video"></div>
+                    <div class="texto-item">
+                        <h3>Scrum Talks</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,6 mil visualizações<br>
+                         Transmitido há 3 dias</p>
+                    </div>
+                </div>
+
+                <div class="lista-item">
+                    <div><img src="assets/images/image 13.png" alt="Terceiro video"></div>
+                    <div class="texto-item">
+                        <h3>Machine Learning Avançado - Fast Track</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,7 mil visualizações<br>
+                         Transmitido há 4 dias</p>
+                    </div>
+                </div>
+
+                <div class="lista-item">
+                    <div><img src="assets/images/image 14.png" alt="Quarto video"></div>
+                    <div class="texto-item">
+                        <h3>Global Skills #2 - Project Planning</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>975 visualizações<br>
+                         Transmitido há 6 dias</p>
+                    </div>
+                </div>
+
+                <div class="lista-item">
+                    <div><img src="assets/images/Thumb.png" alt="Quinto video"></div>
+                    <div class="texto-item">
+                        <h3>Geração Tech Unimed - BH - Ciência de Dados</h3>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações<br>
+                         Transmitido há 8 dias</p>
+                    </div>
+                </div>    
+    </section>
+</main>
 <footer></footer>
 </body>
 </html>
